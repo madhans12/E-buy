@@ -339,7 +339,7 @@ button:hover a {
 }
 .footer-detail {
   display: flex;
-
+  flex-wrap: wrap;
   justify-content: space-around;
   background-color: white;
 }
@@ -355,7 +355,7 @@ button:hover a {
 .footer1,
 .footer2,
 .footer3 {
-  width: 30%;
+  width: 300px;
   display: flex;
   flex-direction: column;
   align-items: left;
