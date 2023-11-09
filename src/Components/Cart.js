@@ -41,7 +41,7 @@ const Cart = () => {
             </div>
             <div className="addcart">
               <button
-                onClick={() => setCount((count) => Math.max(0, count - 1))}
+                onClick={() => setCount((count) => Math.max(1, count - 1))}
               >
                 -
               </button>

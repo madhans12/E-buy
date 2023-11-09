@@ -18,20 +18,24 @@ body {
   justify-content: space-between;
   padding: 1.5rem 0;
 
-  margin: 0 4rem;
   flex-wrap: wrap;
 }
 li {
   list-style-type: none;
+  margin: auto;
 }
 .navbar h1 a {
   color: black;
+}
+.navbar > h1 {
+  margin: auto;
 }
 .navbar > ul {
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 0 0.5rem;
+  margin: auto;
 }
 a {
   color: gray;
@@ -52,8 +56,9 @@ li > a {
 }
 .navbar-right {
   display: flex;
-  align-items: center;
+  align-items: right;
   justify-content: center;
+  margin: auto;
 }
 .icon1 {
   color: black;
@@ -155,7 +160,6 @@ button:hover a {
 .pv-detail {
   display: flex;
   flex-direction: column;
-
   height: 250px;
 }
 .pv-footer {
@@ -190,6 +194,7 @@ button:hover a {
 }
 .pv-description {
   margin: 1rem 0;
+  max-width: 50vh;
 }
 .login-box {
   display: flex;
@@ -200,7 +205,6 @@ button:hover a {
   width: 500px;
   padding: 2rem 0;
   border-radius: 5px;
-  /* border: 1px solid black; */
   margin: 3rem 0;
 }
 .box {
@@ -302,6 +306,11 @@ button:hover a {
   padding: 1rem;
   margin: 1rem;
   border-radius: 5px;
+  cursor: pointer;
+}
+.cart-pay > button:hover {
+  background-color: green;
+  color: white;
 }
 .box {
   margin: auto;
@@ -313,6 +322,7 @@ button:hover a {
 .cart-img {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
   gap: 1rem;
 }
 .cart-img > img {
@@ -329,7 +339,7 @@ button:hover a {
 }
 .footer-detail {
   display: flex;
-  flex-wrap: wrap;
+
   justify-content: space-around;
   background-color: white;
 }
@@ -345,13 +355,13 @@ button:hover a {
 .footer1,
 .footer2,
 .footer3 {
-  width: 300px;
+  width: 30%;
   display: flex;
   flex-direction: column;
   align-items: left;
   justify-content: left;
   gap: 2rem;
-  padding: 2rem 0;
+  padding: 2rem;
 }
 .copywrite {
   display: flex;

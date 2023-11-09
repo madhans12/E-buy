@@ -10,7 +10,6 @@ const Home = () => {
         <img src={mainBanner} width="100%" alt="..."></img>
       </div>
       <Products />
-      <Contact />
     </div>
   );
 };

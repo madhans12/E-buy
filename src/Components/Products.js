@@ -1,6 +1,7 @@
 import React, { useEffect, useState, createContext } from "react";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
+import Contact from "./Contact";
 
 const cartValue = createContext();
 
@@ -58,6 +59,7 @@ const Products = () => {
             </div>
           ))}
       </div>
+      <Contact />
     </div>
   );
 };
